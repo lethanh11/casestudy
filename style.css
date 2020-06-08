@@ -1,0 +1,219 @@
+@import url('https://fonts.google.com/specimen/Josefin+Sans');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('images/bg-pattern-desktop.svg');
+    background-size: cover;
+    background-position: center center;
+    font-family: 'EB Garamond', serif;
+    max-width: 100%;
+    margin: 0px auto;
+    background-color: black;
+    font-size: 16px;
+}
+
+#container{
+display: flex;
+flex-direction: column;
+background-image: url('trangchu.jpg');
+background-repeat: no-repeat;
+background-position: top center;
+background-size: contain;
+padding: 0 2rem;
+justify-content: center;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+/* =========
+header
+======= */
+#header{
+border: 1px solid black;
+position: relative;
+
+}
+.img-top{
+display: inline-block;
+position: relative;
+}
+.img-top img{
+    width: 100%;
+    margin-left: 50px;
+}
+#menu_top {
+    /* background: black; */
+    height: 40px;
+    position: absolute;
+    z-index: 999;
+    left: 15vw;
+    top: 8.3vw;
+    width: 100%;
+    font-size: 1vw;
+    text-transform: uppercase;
+}
+
+#menu_top ul li {
+    list-style: none;
+    float: left;
+}
+
+#menu_top ul li a {
+    text-decoration: none;
+    display: block;
+    line-height: 1vw;
+    color: white;
+    padding: 0px 1vw 0px 1vw;
+    /* border-right: 1px solid black; */
+    
+}
+#menu_top ul li a:hover {
+    color: tomato;
+}
+ul li{
+display: block;
+padding: 0 1vw;
+}
+.text-1 ul li a{
+    color: white;
+    text-decoration: none;
+}
+.text-1 #download {
+    position: relative;
+    left: 100px;
+    bottom: 12px;
+}
+.text-1 #download:hover {
+    color: yellow;
+}
+.text-1 #login {
+    left: 27px;
+    bottom: 12px;
+    position: absolute;
+}
+.text-1 #login:hover {
+    color: yellow;
+}
+.text-1 ul{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 13.8vw;
+    left: 35vw;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+.text-2 ul li a{
+    color: white;
+    text-decoration: none;
+}
+.text-2 #Handbook {
+    position: relative;
+    right: 504px;
+    top: 79px;
+}
+.text-2 #Handbook:hover {
+    color : yellow;
+}
+.text-2 #Seemore:hover {
+    color : yellow;
+}
+.text-2 #Seemore {
+    left: -458px;
+    bottom: -38px;
+    position: absolute;
+
+}
+.text-2 ul {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 13.8vw;
+    left: 35vw;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+#main{
+    display: flex;
+}
+#main #left {
+    width: 60%;
+    min-height: 400px;
+    font-size: 1vw;
+}
+
+#main #right {
+    width: 40%;
+    min-height: 400px; 
+}
+
+#main #left ul li {
+    list-style: none;
+    /* border-bottom: 2px solid #ccc; */
+    color: white;
+    display: flex; 
+}
+
+#main #left ul li img {
+    width: 100%;
+   
+}
+.lol1 {
+    width: 100%;
+    margin-right: 10px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    
+}
+.lol2 {
+    width: 180%;
+    margin-right: 10px;
+    padding-left: 50px;
+    margin-top : 20px;
+    margin-bottom: 20px;
+}
+.yasuo {
+    width: 162%;
+    margin-right: 10px;
+    padding-left: 50px;
+    margin-top : 20px;
+    margin-bottom: 20px;
+}
+
+#main #right ul li {
+    list-style: none;
+}
+
+#main #right ul li img {
+ position: relative;
+ left: 50px;
+ bottom: 30px;
+ width: 60%;
+}
+#menu_top {
+    text-align: center;
+    display: block;
+}
+
+#sprite {
+    height: 40px;
+}
+
+#footer {
+    background: black;
+    text-align: center;
+    height: 60px;
+    color: white;
+    clear: left;
+    line-height: 60px;
+}
+
+@media screen and ( max-width: 900px){
+
+}
